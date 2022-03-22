@@ -1,0 +1,142 @@
+*{ 
+	margin:0px;
+	padding: 0px
+}
+
+body{
+	height: 100%;
+	margin: 0;
+	font-family: "Calibri", Arial;
+	padding-top: 70px; 
+}
+
+#background{
+	background-image: url("img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.logo{
+	margin-left: 15px;
+	margin-top: 10px;
+	float: left;
+}
+
+
+
+/* _____ MENU _____ */
+
+header{ 
+	width: 100%;
+	height: 70px;
+	background-color: #890000;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+nav{
+	height: 70px;
+	font-size: 19px;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav li{
+	float: left;
+	margin-left: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 3.7 
+}
+
+nav ul .BOTAO:hover{
+	background-color: black;
+}
+
+/* _____ CONTEÚDO _____ */
+
+
+main{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	font-size: 25px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+h1{
+	text-align: center;
+}
+
+article{
+	margin: 10px 0px;
+	text-align: justify
+}
+
+.txt{
+	width: 700px;
+	height: auto;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+/* _____ FOOTER _____ */
+
+footer{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 20px 0px;
+	float: left
+}
+
+
+#linkwiki{
+	color: #BF0C0B;
+}
+
+/* _____ HOME _____ */
+
+#imghome{
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+/* _____ HISTÓRIA _____ */
+
+
+/* _____ CURIOSIDADES _____ */
+
+.imgCurios{
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+/* _____ LOTUS _____ */
+
+h2{
+	text-align: center;
+}
+
+/* _____ GALERIA _____ */
+
+.galeria{
+	text-align: center;
+	margin: 15px 0px;
+}
